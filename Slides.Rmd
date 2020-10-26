@@ -1,0 +1,28 @@
+---
+title: "Slides"
+author: "Huy Ngo"
+date: "10/26/2020"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+- My name is Huy ngo, and I am a first year graduate student. I was born in Vietnam but moved to the US in 2013, on a Thanksgiving Day. I lived in Texas most of the time, and just moved to Nebraska to study statistics. I expecting to graduate in 2025.
+
+## My favorite animal
+
+![Big mama protect her kitten](momma cat.jpg)
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
