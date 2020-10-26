@@ -3,26 +3,52 @@ title: "Slides"
 author: "Huy Ngo"
 date: "10/26/2020"
 output: slidy_presentation
+ 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#install.packages("jpeg")
+library(jpeg)
 ```
 
-## Introduction
+```{r load-sas-libraries, echo = F, message = F, warning = F}
+
+library(SASmarkdown)
+sas_enginesetup(sashtml=sashtml)
+
+sasexe <- "C:/Program Files/SASHome/SASFoundation/9.4/sas.exe"
+sasopts <- "-nosplash -ls 75"
+
+# Linux options (for grading, please leave this in!)
+# sasexe <- "/usr/local/SASHome/SASFoundation/9.4/bin/sas_en"
+# sasopts <- "-ls 75"
+```
+
+## Introduction 
 
 - My name is Huy ngo, and I am a first year graduate student. I was born in Vietnam but moved to the US in 2013, on a Thanksgiving Day. I lived in Texas most of the time, and just moved to Nebraska to study statistics. I expecting to graduate in 2025.
 
 ## My favorite animal
 
-![Big mama protect her kitten](momma cat.jpg)
+![Big mama protect her kitten](momma cat.jpg) 
 
-## Including Plots
+## Plots
 
-You can also embed plots, for example:
+Here is the plot that used in assignment 8: Graphics. I like the distribution and colorful of it:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r penguins, results='hide', echo=FALSE, message=FALSE, warning=FALSE}
+if (!"palmerpenguins" %in% installed.packages()) {
+  remotes::install_github("allisonhorst/palmerpenguins")
+}
+library(palmerpenguins)
+library(ggplot2)
+library(dplyr)
+head(penguins)
+ggplot(penguins, aes(x = body_mass_g, y = bill_length_mm, color = species)) + 
+  geom_point()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## CV link:
