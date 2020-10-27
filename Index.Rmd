@@ -9,10 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Slide links:
+## Links:
 
-(file:///C:/Users/HuyN/Documents/R/assign%2010/Slides.html#1)
+[ioslides](Slides.html)
 
-## CV links:
+[beamer](Beamer.pdf)
 
-(https://github.com/stat850-unl/10-presentation-1606anhhuy/blob/master/CV.pdf)
+[My CV](https://github.com/stat850-unl/10-presentation-1606anhhuy/blob/master/CV.pdf)
