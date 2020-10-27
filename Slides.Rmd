@@ -3,7 +3,8 @@ title: "Slides"
 author: "Huy Ngo"
 date: "10/26/2020"
 output: slidy_presentation
- 
+    
+  
 ---
 
 ```{r setup, include=FALSE}
@@ -12,18 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(jpeg)
 ```
 
-```{r load-sas-libraries, echo = F, message = F, warning = F}
-
-library(SASmarkdown)
-sas_enginesetup(sashtml=sashtml)
-
-sasexe <- "C:/Program Files/SASHome/SASFoundation/9.4/sas.exe"
-sasopts <- "-nosplash -ls 75"
-
-# Linux options (for grading, please leave this in!)
-# sasexe <- "/usr/local/SASHome/SASFoundation/9.4/bin/sas_en"
-# sasopts <- "-ls 75"
-```
 
 ## Introduction 
 
@@ -32,11 +21,11 @@ sasopts <- "-nosplash -ls 75"
 
 ## My favorite animal
 
-![Big mama protect her kitten](momma cat.jpg) 
+![Penhouse for couple kitty](stack of kitten.jpg) 
 
 ## Plots
 
-Here is the plot that used in assignment 8: Graphics. I like the distribution and colorful of it:
+Here is the plot that used in assignment 8: Graphics. I like the distribution and how colorfull it is:
 
 ```{r penguins, results='hide', echo=FALSE, message=FALSE, warning=FALSE}
 if (!"palmerpenguins" %in% installed.packages()) {
