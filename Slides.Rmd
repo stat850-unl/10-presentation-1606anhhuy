@@ -40,3 +40,5 @@ ggplot(penguins, aes(x = body_mass_g, y = bill_length_mm, color = species)) +
 
 
 ## CV link:
+
+(https://github.com/stat850-unl/10-presentation-1606anhhuy/blob/master/CV.pdf)

@@ -1,0 +1,18 @@
+---
+title: "Index"
+author: "Huy Ngo"
+date: "10/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide links:
+
+(file:///C:/Users/HuyN/Documents/R/assign%2010/Slides.html#1)
+
+## CV links:
+
+(https://github.com/stat850-unl/10-presentation-1606anhhuy/blob/master/CV.pdf)
