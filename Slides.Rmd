@@ -2,15 +2,13 @@
 title: "Slides"
 author: "Huy Ngo"
 date: "10/26/2020"
-output: slidy_presentation
-    
-  
+output: 
+  ioslides_presentation:
+    logo: cat_35.gif
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-#install.packages("jpeg")
-library(jpeg)
 ```
 
 
@@ -19,11 +17,11 @@ library(jpeg)
 - My name is Huy ngo, and I am a first year graduate student. I was born in Vietnam but moved to the US in 2013, on a Thanksgiving Day. I lived in Texas most of the time and barely see snow fall (probably in 2014), but after that, no more. Yesterday was the first time I see so much snow, and somebody told me this is just the beginning.
 - I am supposed to graduate in 2025, but I want to push the time a little bit, to graduate sooner. To do that, I need to think about the topic for research. Or I don't have to think about it too soon and focusing on the current classes (try to pass them without receiving a C, I guess)
 
-## My favorite animal
+## My favorite animal 
 
-![Penhouse for couple kitty](stack of kitten.jpg) 
+![In case you are wonder, this is a cat. I have another funny pic of a cat but its dimensions are too big that can not fit the slide.](ami_65.gif) 
 
-## Plots
+## Plots 
 
 Here is the plot that used in assignment 8: Graphics. I like the distribution and how colorfull it is:
 
